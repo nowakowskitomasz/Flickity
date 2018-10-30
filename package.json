@@ -27,6 +27,7 @@
   "dependencies": {
     "browser-sync": "^2.24.6",
     "mkdirp": "^0.5.1",
+    "normalize.css": "^8.0.0",
     "rimraf": "^2.6.2",
     "run-all": "^1.0.1"
   },
