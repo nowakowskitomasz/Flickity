@@ -1,3 +1,11 @@
-.carousel-cell { width: 100%; min-height: 250px; height: 50%; background-size: cover; }
+.carousel-cell { width: 100%; min-height: 250px; height: 50vh; background-size: cover; }
 
-.container { max-width: 1200px; text-align: center; }
+.carousel-cell img { -o-object-fit: cover; object-fit: cover; }
+
+.container { max-width: 1200px; text-align: center; font-family: 'Open Sans', sans-serif; margin: 0 auto; }
+
+/* position dots up a bit */
+.flickity-page-dots { bottom: -22px; }
+
+/* dots are lines */
+.flickity-page-dots .dot { height: 4px; width: 40px; margin: 0; border-radius: 0; }
