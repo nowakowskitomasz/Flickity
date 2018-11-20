@@ -2,14 +2,8 @@
     width: 100%;
     min-height: 250px;
     height: 50vh;
-<<<<<<< HEAD
-    background-size: cover;
-    img {
-        object-fit: cover;
-=======
     img {
         background-size: cover;
->>>>>>> workspace
     }
 }
 
@@ -19,15 +13,3 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
 }
-
-/* position dots up a bit */
-.flickity-page-dots {
-    bottom: -22px;
-  }
-  /* dots are lines */
-  .flickity-page-dots .dot {
-    height: 4px;
-    width: 40px;
-    margin: 0;
-    border-radius: 0;
-  }
