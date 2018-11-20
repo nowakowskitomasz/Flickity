@@ -5,5 +5,6 @@ var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
   contain: true,
-  hash: true
+  hash: true,
+  pageDots: false
 });

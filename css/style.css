@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .carousel-cell { width: 100%; min-height: 250px; height: 50vh; background-size: cover; }
+=======
+.carousel-cell { width: 100%; min-height: 250px; height: 50vh; }
+
+.carousel-cell img { background-size: cover; }
+>>>>>>> workspace
 
 .carousel-cell img { -o-object-fit: cover; object-fit: cover; }
 
