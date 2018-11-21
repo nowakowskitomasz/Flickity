@@ -8,3 +8,8 @@ var flkty = new Flickity( elem, {
   hash: true,
   pageDots: false
 });
+
+flkty.on( 'scroll', function( progress ) {
+  console.log( 'Flickity scrolled ' + progress * 100 + '%' )
+});
+
