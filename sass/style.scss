@@ -2,9 +2,7 @@
     width: 100%;
     min-height: 250px;
     height: 50vh;
-    img {
-        background-size: cover;
-    }
+    background-size: cover;
 }
 
 .container {
@@ -13,3 +11,9 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
 }
+
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background: #333;
+  }
